@@ -18,11 +18,13 @@ i{
     border-radius: 20px;
     padding: 5px;
     border: 1.5px solid rgba(0, 0, 0, 0.253);
+    font-size: clamp(1rem, 2.5vw, 1rem);
 }
 
 ul{
     display: flex;
-    gap: 100px;
+    gap: 2vw;
+    overflow-x: auto;
 }
 ul :hover{
     color: rgb(185, 6, 6);
@@ -34,4 +36,5 @@ ul a{
     text-decoration: none;
     font-weight: 300;
     color: black;
+    font-size: clamp(0.9, 1.5vw, 1.2rem);
 }
